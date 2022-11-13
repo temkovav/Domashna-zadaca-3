@@ -1,0 +1,107 @@
+.title {
+    text-align: center;
+}
+
+.track {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.squares {
+    display: block;
+    width: 32px;
+    height: 32px;
+    outline: 2px solid grey;
+    margin: 2px;
+    flex: 0 0 auto;
+}
+
+.squares:first-child {
+    background-color: red;
+}
+
+.button {
+    display: block;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 10px 20px;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 10%);
+    transition: all 0.25s ease-in;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+}
+
+.players {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    outline: 2px solid bisque;
+    margin: 2px;
+    flex: 0 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#turtle-square {
+    background-color: rgb(175, 175, 183);
+}
+
+#rabbit-square {
+    background-color: rgb(167, 177, 182);
+}
+
+.score {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.scoreTable {
+    position: left;
+    max-width: 250px;
+    border-radius: 1em;
+    border-color: rgb(19, 1, 48);
+    margin: 5rem auto;
+    padding: 1.5rem;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 10%);
+}
+
+
+.message {
+    text-align: center;
+  
+}
+.message-card {
+    display: inline-block;
+    margin: 1em auto;
+    padding: 2rem 3rem;
+    background-color: #364a53;
+    color: white;
+    border-radius: 16px;
+    font-size: 4em;
+}
+
+.reveal {
+    opacity: 1;
+    transform: translateY(-80px);
+  }
+
